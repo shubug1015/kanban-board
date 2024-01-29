@@ -53,7 +53,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:6bcdb4a55467bc321d7f1ec66e88618e1eecca4cb44c09dd2732fe14490f9d08054b076e5371399a28869ae67d40f136caacca47aac4f6922d23108eb3a8e974#npm:18.2.0"],\
             ["recoil", "virtual:6bcdb4a55467bc321d7f1ec66e88618e1eecca4cb44c09dd2732fe14490f9d08054b076e5371399a28869ae67d40f136caacca47aac4f6922d23108eb3a8e974#npm:0.7.7"],\
             ["typescript", "patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=14eedb"],\
-            ["vite", "virtual:6bcdb4a55467bc321d7f1ec66e88618e1eecca4cb44c09dd2732fe14490f9d08054b076e5371399a28869ae67d40f136caacca47aac4f6922d23108eb3a8e974#npm:5.0.12"]\
+            ["vite", "virtual:6bcdb4a55467bc321d7f1ec66e88618e1eecca4cb44c09dd2732fe14490f9d08054b076e5371399a28869ae67d40f136caacca47aac4f6922d23108eb3a8e974#npm:5.0.12"],\
+            ["vite-tsconfig-paths", "virtual:6bcdb4a55467bc321d7f1ec66e88618e1eecca4cb44c09dd2732fe14490f9d08054b076e5371399a28869ae67d40f136caacca47aac4f6922d23108eb3a8e974#npm:4.3.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -3718,6 +3719,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["globrex", [\
+        ["npm:0.1.2", {\
+          "packageLocation": "./.yarn/cache/globrex-npm-0.1.2-ddda94f2d0-adca162494.zip/node_modules/globrex/",\
+          "packageDependencies": [\
+            ["globrex", "npm:0.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["gopd", [\
         ["npm:1.0.1", {\
           "packageLocation": "./.yarn/cache/gopd-npm-1.0.1-10c1d0b534-a5ccfb8806.zip/node_modules/gopd/",\
@@ -4502,7 +4512,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:6bcdb4a55467bc321d7f1ec66e88618e1eecca4cb44c09dd2732fe14490f9d08054b076e5371399a28869ae67d40f136caacca47aac4f6922d23108eb3a8e974#npm:18.2.0"],\
             ["recoil", "virtual:6bcdb4a55467bc321d7f1ec66e88618e1eecca4cb44c09dd2732fe14490f9d08054b076e5371399a28869ae67d40f136caacca47aac4f6922d23108eb3a8e974#npm:0.7.7"],\
             ["typescript", "patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=14eedb"],\
-            ["vite", "virtual:6bcdb4a55467bc321d7f1ec66e88618e1eecca4cb44c09dd2732fe14490f9d08054b076e5371399a28869ae67d40f136caacca47aac4f6922d23108eb3a8e974#npm:5.0.12"]\
+            ["vite", "virtual:6bcdb4a55467bc321d7f1ec66e88618e1eecca4cb44c09dd2732fe14490f9d08054b076e5371399a28869ae67d40f136caacca47aac4f6922d23108eb3a8e974#npm:5.0.12"],\
+            ["vite-tsconfig-paths", "virtual:6bcdb4a55467bc321d7f1ec66e88618e1eecca4cb44c09dd2732fe14490f9d08054b076e5371399a28869ae67d40f136caacca47aac4f6922d23108eb3a8e974#npm:4.3.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -6249,6 +6260,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["tsconfck", [\
+        ["npm:3.0.1", {\
+          "packageLocation": "./.yarn/cache/tsconfck-npm-3.0.1-082b8ebe97-8ce536b288.zip/node_modules/tsconfck/",\
+          "packageDependencies": [\
+            ["tsconfck", "npm:3.0.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:c8f6e6ac9ec337d124d241db7a91f6452f218d0f2fdd39bec5abae827d2ec07baea80143f99873ebe6ea732ec8aed50fedf4cda8b2b52021e7acf339947ba267#npm:3.0.1", {\
+          "packageLocation": "./.yarn/__virtual__/tsconfck-virtual-c3938c6ec0/0/cache/tsconfck-npm-3.0.1-082b8ebe97-8ce536b288.zip/node_modules/tsconfck/",\
+          "packageDependencies": [\
+            ["tsconfck", "virtual:c8f6e6ac9ec337d124d241db7a91f6452f218d0f2fdd39bec5abae827d2ec07baea80143f99873ebe6ea732ec8aed50fedf4cda8b2b52021e7acf339947ba267#npm:3.0.1"],\
+            ["@types/typescript", null],\
+            ["typescript", null]\
+          ],\
+          "packagePeers": [\
+            "@types/typescript",\
+            "typescript"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["tsconfig-paths", [\
         ["npm:3.15.0", {\
           "packageLocation": "./.yarn/cache/tsconfig-paths-npm-3.15.0-ff68930e0e-59f35407a3.zip/node_modules/tsconfig-paths/",\
@@ -6506,6 +6539,31 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "stylus",\
             "sugarss",\
             "terser"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["vite-tsconfig-paths", [\
+        ["npm:4.3.1", {\
+          "packageLocation": "./.yarn/cache/vite-tsconfig-paths-npm-4.3.1-09ea77d0b2-2934d5d674.zip/node_modules/vite-tsconfig-paths/",\
+          "packageDependencies": [\
+            ["vite-tsconfig-paths", "npm:4.3.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bcdb4a55467bc321d7f1ec66e88618e1eecca4cb44c09dd2732fe14490f9d08054b076e5371399a28869ae67d40f136caacca47aac4f6922d23108eb3a8e974#npm:4.3.1", {\
+          "packageLocation": "./.yarn/__virtual__/vite-tsconfig-paths-virtual-c8f6e6ac9e/0/cache/vite-tsconfig-paths-npm-4.3.1-09ea77d0b2-2934d5d674.zip/node_modules/vite-tsconfig-paths/",\
+          "packageDependencies": [\
+            ["vite-tsconfig-paths", "virtual:6bcdb4a55467bc321d7f1ec66e88618e1eecca4cb44c09dd2732fe14490f9d08054b076e5371399a28869ae67d40f136caacca47aac4f6922d23108eb3a8e974#npm:4.3.1"],\
+            ["@types/vite", null],\
+            ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.4"],\
+            ["globrex", "npm:0.1.2"],\
+            ["tsconfck", "virtual:c8f6e6ac9ec337d124d241db7a91f6452f218d0f2fdd39bec5abae827d2ec07baea80143f99873ebe6ea732ec8aed50fedf4cda8b2b52021e7acf339947ba267#npm:3.0.1"],\
+            ["vite", "virtual:6bcdb4a55467bc321d7f1ec66e88618e1eecca4cb44c09dd2732fe14490f9d08054b076e5371399a28869ae67d40f136caacca47aac4f6922d23108eb3a8e974#npm:5.0.12"]\
+          ],\
+          "packagePeers": [\
+            "@types/vite",\
+            "vite"\
           ],\
           "linkType": "HARD"\
         }]\
